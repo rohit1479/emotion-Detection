@@ -1,0 +1,59 @@
+/* App.css - Styles for the main application */
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  color: #dde1e7;
+}
+
+.app-main {
+  margin-bottom: 50px;
+}
+
+.app-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #eaeaea;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.privacy-note {
+  margin-top: 10px;
+  font-style: italic;
+  color: #a0aec0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  .app-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.app{
+  background-color: #bf6d1b;
+}
